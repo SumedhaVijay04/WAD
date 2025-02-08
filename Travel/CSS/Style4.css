@@ -1,0 +1,110 @@
+/* Reset Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #ADD8E6;
+    text-align: center;
+    padding-top: 100px; /* Adjust to fit fixed header */
+}
+
+/* Header Styling */
+.header-container {
+    background-color: black;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.header-title {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+/* Navigation Bar */
+.header-container2 {
+    background-color: #5A5A5A;
+    color: white;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    top: 60px; /* Ensures it aligns properly */
+    width: 100%;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 30px;
+    font-weight: bold;
+    font-size: 18px;
+    transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+    color: #FFD700; /* Gold color on hover */
+}
+
+/* Contact Form Container */
+.container {
+    width: 50%;
+    margin: 20px auto; /* Reduced margin-top to remove extra gap */
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form Input Fields */
+.cell {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+/* Submit Button */
+.registerbtn {
+    width: 100%;
+    padding: 15px;
+    border: none;
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.registerbtn:hover {
+    background-color: darkgreen;
+}
+
+/* Map Section */
+.map-container {
+    margin-top: 20px;
+}
+
+/* Social Media Links */
+.social-media a {
+    margin: 10px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #333;
+}
